@@ -1,0 +1,8 @@
+import streamlit as st
+
+st.title("FRIDAY UI CORE")
+
+st.success("System Ready")
+
+if st.button("Activate"):
+    st.write("FRIDAY online")
