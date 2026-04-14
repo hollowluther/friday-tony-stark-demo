@@ -1,7 +1,12 @@
 import streamlit as st
 
-st.title("FRIDAY DIAGNOSTIC")
+st.set_page_config(page_title="FRIDAY TEST", layout="centered")
 
-st.write("If you see this → Streamlit is working")
+st.title("FRIDAY SYSTEM TEST")
 
-st.success("UI render successful")
+st.write("If you see this → Streamlit runtime is working")
+
+st.success("UI loaded successfully")
+
+if st.button("PING"):
+    st.info("FRIDAY UI responding")
